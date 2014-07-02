@@ -1,7 +1,7 @@
 # ats
 
 ```
-root@docker:~/test# alias atscc="docker run -v '$(pwd):/src' grahamc/ats $@"
+root@docker:~/test# alias atscc="sudo docker run -v '$(pwd):/src' grahamc/ats $@"
 root@docker:~/test# atscc ./test.dats
 exec(patsopt --output test_dats.c --dynamic ./test.dats)
 Hello from ATS2(ATS/Postiats)!
